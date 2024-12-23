@@ -1,0 +1,161 @@
+* {
+    margin : 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #07081A;
+}
+
+.navigation {
+    width: 100%;
+    display: flex;
+    padding-top: 28px;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 1px solid #261C51;
+}
+
+.link {
+    display: flex;
+    gap: 16px ;
+}
+
+.home {
+    color: #8CE900;
+    font-family: "Inter", sans-serif;
+}
+
+.links {
+    color: #ffffff;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    width:100%;
+    margin-top: 64px;
+}
+
+.mainContent {
+    max-width: 1040px;
+    width: 100%;
+    display: flex;
+    gap: 64px;
+    flex-direction: column;
+}
+
+.contentHead {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.headText {
+    font-family: "Inter", sans-serif;
+    font-size: 42px;
+    font-weight: 800;
+    color: #FFFFFF;
+}
+
+.contentNummbers {
+    display: flex;
+    padding: 72px 40px;
+    background-color: #242642;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.numbers {
+    display: flex;
+    align-items: center;
+    max-width: 168px;
+    width: 100%;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.fourHundreed {
+    font-family: "Inter", sans-serif;
+    font-size: 56px;
+    font-weight: 500;
+    color: #8CE900;
+}
+
+.title {
+    font-family: "Inter", sans-serif;
+    color: #C0C0C0;
+    font-size: 19px;
+}
+
+.footer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    padding-bottom: 64px;
+    margin-top: 200px;
+}
+
+.logo {
+    display: flex;
+    gap: 16px;
+    color: #C0C0C0;
+    font-family: "Inter", sans-serif;
+    flex-direction: column;
+    max-width: 264px;
+    width: 100%;
+}
+
+.logo img {
+    width: 69px;
+    height: 36px;
+}
+
+.footerlinks {
+    max-width: 82px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.linksFoot {
+    text-decoration: none;
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+.footerlinks h6 {
+    color: #8CE900;
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.footerContact {
+    max-width: 186px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.footerContact h6 {
+    color: #8CE900;
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.footerContact p {
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #FFFFFF;
+}
